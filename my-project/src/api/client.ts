@@ -1,4 +1,4 @@
-const API = window.location.origin.includes('localhost') ? "http://127.0.0.1:8000" : "";
+const API =   "https://wiki-quiz-generator-85da.vercel.app";;
 
 export interface QuizQuestion {
   question: string;
