@@ -1,0 +1,11 @@
+# .gitignore
+venv/
+__pycache__/
+*.pyc
+.env
+node_modules/
+dist/
+*.db
+backend/quizzes.db
+frontend/dist/
+.DS_Store
