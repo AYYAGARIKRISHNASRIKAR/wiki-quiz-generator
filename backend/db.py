@@ -1,11 +1,11 @@
 import sqlite3
-
+import os
 from datetime import datetime
 from contextlib import contextmanager
 
 
 # The path to our SQLite database file
-DB_PATH = "quizzes.db"
+DB_PATH = os.path.join("/tmp","quizzes.db")
 
 
 def init_db():
